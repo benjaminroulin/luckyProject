@@ -37,6 +37,15 @@
                     {{ form_widget(formView.imageFile, { 'attr': {'class': 'form-control'} }) }}
                 </div>
             </div>
+            <div class="row form-group">
+
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.imageThumbFile) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.imageThumbFile, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+            </div>
             <div class="row boutons form-group d-flex justify-content-around">
                 <div class="btn btn-primary returnbutton">
                     <a href="{{ path('lucky_admin') }}">Retour</a>

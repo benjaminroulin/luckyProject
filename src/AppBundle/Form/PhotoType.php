@@ -21,19 +21,29 @@ class PhotoType extends AbstractType
         $builder
                 ->add('updatedAt', DateType::class , array(
                     'widget' => 'single_text',
-                    'format' => 'yyyy-MM-dd'
+                    'format' => 'yyyy-MM-dd',
+                    'label' => 'Date de la photo'
                 ))
                 ->add('alt')
                 ->add('imageFile', VichImageType::class, [
+                    'label' => 'Image plein écran',
                     'required' => false,
                     'allow_delete' => true,
                     'download_label' => true,
                     'download_uri' => true,
                     'image_uri' => true,
                 ])
-                    ->add('Sauvegarder', SubmitType::class, array(
+                ->add('Sauvegarder', SubmitType::class, array(
                         'attr' => array('class' => 'btn btn-primary savebutton'),
-                    ));
+                    ))
+                ->add('imageThumbFile', VichImageType::class, [
+                    'label' => 'Image miniature',
+                    'required' => false,
+                    'allow_delete' => true,
+                    'download_label' => true,
+                    'download_uri' => true,
+                    'image_uri' => true]);
+
     }/**
      * {@inheritdoc}
      */

@@ -42,6 +42,18 @@ class Photo
     private $imageFile;
 
     /**
+     * @ORM\Column(type="string", length=255)
+     * @var string
+     */
+    private $imageThumb;
+
+    /**
+     * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
+     * @var File
+     */
+    private $imageThumbFile;
+
+    /**
      * @ORM\Column(type="datetime")
      * @var \DateTime
      */
@@ -64,6 +76,15 @@ class Photo
         $this->alt = $alt;
     }
 
+    public function setImageThumb($imageThumb)
+    {
+        $this->imageThumb = $imageThumb;
+    }
+
+    public function getImageThumb()
+    {
+        return $this->imageThumb;
+    }
 
     /**
      * Get id
@@ -90,6 +111,24 @@ class Photo
     public function getImageFile()
     {
         return $this->imageFile;
+    }
+
+    public function setImageThumbFile(File $imageThumb = null)
+    {
+        $this->imageThumbFile = $imageThumb;
+
+        // VERY IMPORTANT:
+        // It is required that at least one field changes if you are using Doctrine,
+        // otherwise the event listeners won't be called and the file is lost
+        if ($imageThumb) {
+            // if 'updatedAt' is not defined in your entity, use another property
+            $this->updatedAt = new \DateTime('now');
+        }
+    }
+
+    public function getImageThumbFile()
+    {
+        return $this->imageThumbFile;
     }
 
     public function setImage($image)
