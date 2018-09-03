@@ -30,10 +30,6 @@ class Photo
      */
     private $image;
 
-    public function __toString()
-    {
-        return $this->image;
-    }
 
     /**
      * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
@@ -48,7 +44,7 @@ class Photo
     private $imageThumb;
 
     /**
-     * @Vich\UploadableField(mapping="product_images", fileNameProperty="image")
+     * @Vich\UploadableField(mapping="product_images", fileNameProperty="imageThumb")
      * @var File
      */
     private $imageThumbFile;
@@ -66,6 +62,8 @@ class Photo
      */
     private $alt;
 
+
+
     public function getAlt()
     {
         return $this->alt;
@@ -76,15 +74,6 @@ class Photo
         $this->alt = $alt;
     }
 
-    public function setImageThumb($imageThumb)
-    {
-        $this->imageThumb = $imageThumb;
-    }
-
-    public function getImageThumb()
-    {
-        return $this->imageThumb;
-    }
 
     /**
      * Get id
@@ -129,6 +118,16 @@ class Photo
     public function getImageThumbFile()
     {
         return $this->imageThumbFile;
+    }
+
+    public function setImageThumb($imageThumb)
+    {
+        $this->imageThumb = $imageThumb;
+    }
+
+    public function getImageThumb()
+    {
+        return $this->imageThumb;
     }
 
     public function setImage($image)

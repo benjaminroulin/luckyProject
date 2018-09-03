@@ -2,153 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec285b2-1776-4491-a5c0-06ee57c7bfdf" name="Default Changelist" comment="">
-      <change beforePath="D:/.gitignore" beforeDir="false" />
-      <change beforePath="D:/.idea/luckyProject.iml" beforeDir="false" />
-      <change beforePath="D:/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="D:/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="D:/.idea/php.xml" beforeDir="false" />
-      <change beforePath="D:/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="D:/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="D:/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="D:/README.md" beforeDir="false" />
-      <change beforePath="D:/app/.htaccess" beforeDir="false" />
-      <change beforePath="D:/app/AppCache.php" beforeDir="false" />
-      <change beforePath="D:/app/AppKernel.php" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/ChangePassword/change_password_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/edit.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/edit_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/list.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/list_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/new.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/new_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/show.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Group/show_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Profile/edit.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Profile/show.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Profile/show_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Registration/check_email.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Registration/email.txt.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Registration/register.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Registration/register_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/check_email.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/email.txt.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/request.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/reset.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Security/login.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/FOSUserBundle/views/layout.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/views/base.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/Resources/views/default/index.html.twig" beforeDir="false" />
-      <change beforePath="D:/app/config/config.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/config_dev.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/config_prod.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/config_test.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/parameters.yml.dist" beforeDir="false" />
-      <change beforePath="D:/app/config/routing.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/routing_dev.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/security.yml" beforeDir="false" />
-      <change beforePath="D:/app/config/services.yml" beforeDir="false" />
-      <change beforePath="D:/bin/console" beforeDir="false" />
-      <change beforePath="D:/bin/symfony_requirements" beforeDir="false" />
-      <change beforePath="D:/composer.json" beforeDir="false" />
-      <change beforePath="D:/composer.lock" beforeDir="false" />
-      <change beforePath="D:/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig" afterDir="false" />
-      <change beforePath="D:/public/assets/images/studio-ghibli.jpg" beforeDir="false" />
-      <change beforePath="D:/public/images/products/studio-ghibli.jpg" beforeDir="false" />
-      <change beforePath="D:/src/.htaccess" beforeDir="false" />
-      <change beforePath="D:/src/AppBundle/AppBundle.php" beforeDir="false" />
-      <change beforePath="D:/src/AppBundle/Controller/DefaultController.php" beforeDir="false" />
-      <change beforePath="D:/src/AppBundle/Entity/Photo.php" beforeDir="false" />
-      <change beforePath="D:/src/AppBundle/Form/PhotoType.php" beforeDir="false" />
-      <change beforePath="D:/src/AppBundle/Repository/PhotoRepository.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Controller/DefaultController.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/Band.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/Concert.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/Mailing.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/Song.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/User.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Entity/Video.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Form/BandType.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Form/ConcertType.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Form/SongType.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Form/VideoType.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Repository/Band.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Repository/Concert.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Repository/Mailing.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Repository/Song.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Repository/Video.php" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/Band.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/Concert.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/Mailing.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/Song.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/User.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/doctrine/Video.orm.xml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/routing.yml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/config/services.yml" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/band.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/base.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/dates.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addDate.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addMember.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addSong.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addVideo.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/admin.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/updateForms/updateDate.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/updateForms/updateMember.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/formAdmin/updateForms/updateSong.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/index.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/photos.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/song.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/songs.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/Resources/views/Default/videos.html.twig" beforeDir="false" />
-      <change beforePath="D:/src/luckyBundle/luckyBundle.php" beforeDir="false" />
-      <change beforePath="D:/tests/AppBundle/Controller/DefaultControllerTest.php" beforeDir="false" />
-      <change beforePath="D:/tests/luckyBundle/Controller/DefaultControllerTest.php" beforeDir="false" />
-      <change beforePath="D:/var/SymfonyRequirements.php" beforeDir="false" />
-      <change beforePath="D:/var/cache/.gitkeep" beforeDir="false" />
-      <change beforePath="D:/var/logs/.gitkeep" beforeDir="false" />
-      <change beforePath="D:/var/sessions/.gitkeep" beforeDir="false" />
-      <change beforePath="D:/web/.htaccess" beforeDir="false" />
-      <change beforePath="D:/web/app.php" beforeDir="false" />
-      <change beforePath="D:/web/app_dev.php" beforeDir="false" />
-      <change beforePath="D:/web/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="D:/web/assets/css/style.css" beforeDir="false" />
-      <change beforePath="D:/web/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/bass_clef_01.svg" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/bg.jpg" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/guitar_home.jpg" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/lunettesbasse.jpg" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/membreBen.jpg" beforeDir="false" />
-      <change beforePath="D:/web/assets/images/olivier.gif" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_admin.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_band.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_dates.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_footer.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_form.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_general.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_header.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_index.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_photo.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_responsive.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_song.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_songs.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_variables.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/_video.scss" beforeDir="false" />
-      <change beforePath="D:/web/assets/sass/style.scss" beforeDir="false" />
-      <change beforePath="D:/web/config.php" beforeDir="false" />
-      <change beforePath="D:/web/favicon.ico" beforeDir="false" />
-      <change beforePath="D:/web/robots.txt" beforeDir="false" />
-      <change beforePath="D:/web/uploads/images/products/chateau ambulant.jpg" beforeDir="false" />
-      <change beforePath="D:/web/uploads/images/products/marnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/products/chateau ambulant.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/uploads/images/products/marnie.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -163,18 +22,18 @@
     <session id="799808405">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.7" value="7" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -182,11 +41,11 @@
           <entry key="css" value="2" />
           <entry key="gitignore" value="3" />
           <entry key="jpg" value="1" />
-          <entry key="json" value="5" />
+          <entry key="json" value="6" />
           <entry key="lock" value="1" />
-          <entry key="php" value="79" />
+          <entry key="php" value="81" />
           <entry key="rst" value="3" />
-          <entry key="scss" value="106" />
+          <entry key="scss" value="107" />
           <entry key="twig" value="158" />
           <entry key="xml" value="28" />
           <entry key="yml" value="21" />
@@ -196,11 +55,11 @@
         <counts>
           <entry key="CSS" value="2" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="6" />
-          <entry key="PHP" value="79" />
+          <entry key="JSON" value="7" />
+          <entry key="PHP" value="81" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="ReST" value="3" />
-          <entry key="SCSS" value="106" />
+          <entry key="SCSS" value="107" />
           <entry key="Twig" value="158" />
           <entry key="XML" value="28" />
           <entry key="YAML" value="21" />
@@ -209,9 +68,9 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="9" />
-          <entry key="php" value="1509" />
+          <entry key="php" value="1519" />
           <entry key="scss" value="5515" />
-          <entry key="twig" value="4059" />
+          <entry key="twig" value="4198" />
           <entry key="xml" value="118" />
           <entry key="yml" value="818" />
         </counts>
@@ -219,9 +78,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="9" />
-          <entry key="PHP" value="1509" />
+          <entry key="PHP" value="1519" />
           <entry key="SCSS" value="5515" />
-          <entry key="Twig" value="4059" />
+          <entry key="Twig" value="4198" />
           <entry key="XML" value="118" />
           <entry key="YAML" value="818" />
         </counts>
@@ -238,11 +97,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="234">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/sass/_photo.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -250,26 +118,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="510">
+              <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -309,7 +159,6 @@
         <option value="$PROJECT_DIR$/src/luckyBundle/Form/VideoType.php" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/admin.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/sass/_addSong.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/sass/_header.scss" />
@@ -339,11 +188,12 @@
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/updateForms/updateMember.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/sass/_video.scss" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/sass/_photo.scss" />
-        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" />
       </list>
     </option>
   </component>
@@ -401,11 +251,10 @@
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-5" />
-    <option name="y" value="9" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1929" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -413,6 +262,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -442,83 +292,14 @@
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-              <item name="doctrine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-              <item name="formAdmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Default" type="462c0819:PsiDirectoryNode" />
-              <item name="formAdmin" type="462c0819:PsiDirectoryNode" />
-              <item name="addForms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -545,11 +326,31 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="uploads" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -613,18 +414,20 @@
       <workItem from="1535621420431" duration="5868000" />
       <workItem from="1535824354007" duration="315000" />
       <workItem from="1535960290617" duration="8305000" />
-      <workItem from="1535972137787" duration="5558000" />
+      <workItem from="1535972137787" duration="7908000" />
+      <workItem from="1535980682116" duration="321000" />
+      <workItem from="1535981362380" duration="5664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163664000" />
+    <option name="totallyTimeSpent" value="171999000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="56" width="1936" height="1056" extended-state="0" />
+    <frame x="1929" y="0" width="1936" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85555553" visible="true" weight="0.18123667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85555553" visible="true" weight="0.18496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.14444445" side_tool="true" weight="0.27985075" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -637,8 +440,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4978678" visible="true" weight="0.3167028" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5021322" side_tool="true" weight="0.3167028" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733475" visible="true" weight="0.3187773" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026652" side_tool="true" weight="0.3167028" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -675,7 +478,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_addDate.scss" />
     <entry file="file://$PROJECT_DIR$/web/assets/sass/_addSong.scss" />
     <entry file="file://$PROJECT_DIR$/web/assets/sass/_^photo.scss" />
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig">
@@ -721,11 +523,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/sass/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -958,45 +755,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_photo.scss">
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="-442">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#34#74#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Form/SongType.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Photo.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2428">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="290">
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="510">
+          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_photo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="302">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php">
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
