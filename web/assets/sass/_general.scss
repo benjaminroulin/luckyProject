@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/bg.jpg");
+  min-height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: #cacaca;
+}
+
+.main{
+  min-height: 90vh;
+}
+
+.title_date{
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  font-family: $cursive_font;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+}

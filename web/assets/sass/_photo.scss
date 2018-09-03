@@ -1,0 +1,33 @@
+.title_photos{
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.photo_container{
+  margin-bottom: 30px;
+}
+
+.photo_miniature{
+  margin-bottom: 15px;
+}
+
+//////delete btn/////
+
+.deletebtn_photo{
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+  border: none;
+  a{
+    text-decoration: none;
+    color: black !important;
+    &:hover {
+      color: red !important;
+    }
+  }
+}

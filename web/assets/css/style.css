@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  height: 100%; }
+
+body {
+  background-image: url("../images/bg.jpg");
+  min-height: 100%; }
+
+a {
+  text-decoration: none;
+  color: #cacaca; }
+
+.main {
+  min-height: 90vh; }
+
+.title_date {
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  font-family: "Kaushan Script";
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center; }
+
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 10vh;
+  align-items: center; }
+
+.list_header {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 15px; }
+
+.decobtn {
+  align-items: center;
+  position: absolute;
+  right: 30px;
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  border: none !important; }
+  .decobtn a {
+    color: black; }
+  .decobtn a:hover {
+    text-decoration: none;
+    color: #323232; }
+
+.adminbtn {
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  border: none !important; }
+  .adminbtn a {
+    color: black; }
+  .adminbtn a:hover {
+    text-decoration: none;
+    color: #323232; }
+
+.nav-link {
+  color: #458A79; }
+
+.item_header {
+  margin: 0 10px 0 0;
+  color: #458A79;
+  font-size: 1.6em;
+  position: relative;
+  text-align: center; }
+
+nav ul li:after {
+  display: block;
+  content: "";
+  background-color: #30CFD0;
+  height: 2px;
+  width: 0;
+  position: absolute;
+  -moz-transition: width 0.7s;
+  -webkit-transition: width 0.7s;
+  transition: width 0.7s; }
+
+nav ul li:hover:after {
+  width: 100%; }
+
+.item_header :hover {
+  color: #30CFD0; }
+
+.subMenu {
+  padding: 2px;
+  margin-left: 12px;
+  list-style-type: none;
+  line-height: 0.7em;
+  position: absolute;
+  z-index: 1000;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  -moz-transition: height 0.7s;
+  -webkit-transition: height 0.7s;
+  transition: height 0.7s; }
+
+.list_header li:hover ul {
+  height: 3em; }
+
+.sub_nav {
+  font-size: 0.8em; }
+
+.menu_burger {
+  display: none; }
+
+.img_burger {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 20px;
+  display: none; }
+
+.footer {
+  color: #999999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; }
+
+.icoL {
+  margin-right: 30px; }
+
+.icoR {
+  margin-left: 30px; }
+
+.footer_p {
+  margin-bottom: 0;
+  color: #cacaca; }
+
+@media screen and (min-width: 735px) and (max-width: 1024px) {
+  .item_header {
+    margin: 0 10px 0 0;
+    color: #458A79;
+    font-size: 1.3em; }
+
+  .bg_home {
+    background-image: url("../images/guitar_home.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10%; } }
+@media screen and (min-width: 600px) and (max-width: 735px) {
+  .item_header {
+    margin: 0 10px 0 0;
+    color: #458A79;
+    font-size: 1.3em; }
+
+  .bg_home {
+    background-image: url("../images/guitar_home.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 735px;
+    height: 350px;
+    margin-top: 10%; } }
+@media screen and (min-width: 425px) and (max-width: 600px) {
+  .item_header {
+    margin: 0 10px 0 0;
+    color: #458A79;
+    font-size: 1.3em; }
+
+  .bg_home {
+    background-image: url("../images/guitar_home.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 735px;
+    height: 350px;
+    margin-top: 10%; }
+
+  .nav_header {
+    display: none; }
+
+  .menu_burger {
+    display: none; }
+
+  .img_burger {
+    display: block; } }
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .bg_home {
+    background-image: url("../images/guitar_home.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 425px;
+    height: 200px;
+    margin-top: 10%; }
+
+  .main_titre {
+    font-size: 5em;
+    margin-top: 1%; }
+
+  .nav_header {
+    display: none; }
+
+  .menu_burger {
+    display: none; }
+
+  .img_burger {
+    display: block; } }
+@media screen and (max-width: 375px) {
+  .bg_home {
+    width: 375px;
+    height: 200px;
+    margin-top: 10%; }
+
+  .main_titre {
+    font-size: 5em;
+    margin-top: 1%; }
+
+  .nav_header {
+    display: none; }
+
+  .menu_burger {
+    display: none; }
+
+  .img_burger {
+    display: block; } }
+.background-box {
+  color: #30CFD0;
+  background-image: url("../images/olivier.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 83px 10px 10px 10px;
+  width: 300px;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif; }
+
+.date {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.3em; }
+
+.dates {
+  margin: 100px;
+  justify-content: center; }
+
+.datesbtn {
+  width: 100%;
+  margin: 30px 0 0 0;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0 0 15px 15px; }
+  .datesbtn a {
+    text-decoration: none; }
+
+.updatebtn_date {
+  font-size: 1.2em;
+  margin: 0 0 0 5px;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%); }
+
+.deletebtn_date {
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%); }
+
+.admin_category {
+  text-align: center;
+  color: #458A79;
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 0 10px 20px 0;
+  height: auto;
+  transition: background-color 1s; }
+  .admin_category:hover {
+    background-color: rgba(70, 64, 59, 0.5); }
+
+.admin_categories {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 30px; }
+  .admin_categories a {
+    text-decoration: none; }
+    .admin_categories a:hover {
+      color: #30CFD0; }
+
+.deleteColor {
+  color: black !important; }
+  .deleteColor:hover {
+    color: red !important; }
+
+.updateColor {
+  color: black !important; }
+  .updateColor:hover {
+    color: white !important; }
+
+.membre {
+  margin: 20px; }
+
+.membres {
+  justify-content: center;
+  margin-top: 200px; }
+
+.membres .membre:first-child {
+  background: url("../images/membreBen.jpg") no-repeat;
+  background-size: cover; }
+
+.name_style {
+  text-align: center; }
+
+.bio_style {
+  text-align: justify; }
+
+.bandbtn {
+  width: 100%;
+  margin: 30px 0 0 0;
+  text-align: center; }
+  .bandbtn a {
+    text-decoration: none; }
+
+.updatebtn_band {
+  background: linear-gradient(to right, black 0%, grey 50%, black 100%);
+  border-radius: 0 0 15px 0;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 2px;
+  width: 35%; }
+
+.deletebtn_band {
+  background: linear-gradient(to right, black 0%, grey 50%, black 100%);
+  border-radius: 0 0 0 15px;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 2px;
+  width: 35%; }
+
+.titre_form {
+  text-align: center;
+  font-style: italic;
+  color: #30CFD0;
+  line-height: 3em;
+  margin: 0; }
+
+.form_add_container {
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  padding: 5%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.4em; }
+
+.labels {
+  padding: 0 !important;
+  text-align: left; }
+
+.fields {
+  padding: 0; }
+
+.field_lyrics {
+  min-height: 400px !important; }
+
+.returnbutton {
+  background-color: #003729 !important;
+  border-color: #003729; }
+  .returnbutton:hover {
+    border-color: #003729;
+    color: #6FA698 !important; }
+
+.boutons {
+  margin: 40px 0 0 0; }
+
+.returnbutton a {
+  text-decoration: none !important;
+  color: white; }
+
+.savebutton {
+  background-color: #30CFD0 !important;
+  border-color: #003729; }
+  .savebutton:hover {
+    border-color: #6FA698; }
+
+.login_style {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center; }
+
+.loginform {
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border-radius: 10px;
+  margin: 120px auto 0 auto;
+  padding: 15px; }
+
+.login_title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #458A79;
+  font-size: 4em;
+  margin-top: 80px; }
+
+.lab_admin {
+  font-size: 1.5em;
+  line-height: 50px;
+  margin-top: 20px; }
+
+.inp_admin {
+  font-size: 2em; }
+
+.checkbox {
+  width: 20px;
+  height: 20px; }
+
+.remember {
+  margin-top: 10px;
+  display: flex;
+  height: 50px; }
+
+.login_btn {
+  width: 30%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin: auto; }
+
+.title_videos {
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.video_frame {
+  background-color: black;
+  opacity: 0.6;
+  margin: 10px; }
+  .video_frame:hover {
+    opacity: 1; }
+
+.video_title {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color: #458A79; }
+
+.video_container {
+  margin-bottom: 30px; }
+
+.deletebtn_video {
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+  border: none; }
+  .deletebtn_video a {
+    text-decoration: none;
+    color: black !important; }
+    .deletebtn_video a:hover {
+      color: red !important; }
+
+.title_photos {
+  background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.photo_container {
+  margin-bottom: 30px; }
+
+.photo_miniature {
+  margin-bottom: 15px; }
+
+.deletebtn_photo {
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+  border: none; }
+  .deletebtn_photo a {
+    text-decoration: none;
+    color: black !important; }
+    .deletebtn_photo a:hover {
+      color: red !important; }
+
+.tips {
+  font-size: 0.5em; }
+
+.itemfont {
+  font-family: "Kaushan Script";
+  font-size: 1.4em;
+  line-height: 2em; }
+
+.song_list {
+  columns: 2;
+  column-gap: 50px;
+  width: 80%;
+  margin: 100px auto 0 auto;
+  text-align: center; }
+  .song_list a {
+    text-decoration: none;
+    color: #458A79; }
+    .song_list a:hover {
+      color: #30CFD0; }
+
+.song_item {
+  margin: auto; }
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px; }
+  .column:hover {
+    background-color: rgba(58, 119, 104, 0.1); }
+
+.songsbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 0 0 15px 15px; }
+  .songsbtn a {
+    text-decoration: none; }
+
+.updatebtn_song {
+  font-size: 1.2em;
+  margin: 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%); }
+
+.deletebtn_song {
+  font-size: 1.2em;
+  margin: 0 0 0 10px;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%); }
+
+.lyrics_container {
+  margin-top: 100px; }
+
+.song_title {
+  font-family: "Kaushan Script";
+  font-size: 5em;
+  background: linear-gradient(to right, #30CFD0 0%, #01261c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  padding-bottom: 10px; }
+
+.song_lyrics {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  color: grey; }
+
+.bg_home {
+  background-image: url("../images/guitar_home.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh; }
+
+.main_titre {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 10em;
+  margin: 40px 0 160px 0;
+  padding: 3%;
+  background: linear-gradient(to right, #30CFD0 0%, #01261c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: titleAnim;
+  animation-duration: 2s; }
+
+@keyframes titleAnim {
+  From {
+    text-shadow: 0 0 3px #30CFD0, 0 0 5px #458A79; }
+  to {
+    text-shadow: none; } }
+.homeslider {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 150px;
+  width: 300px;
+  height: 150px;
+  font-family: 'Montserrat', sans-serif; }
+
+.colortext {
+  color: #458A79; }
+
+.no-mrg_no-pad {
+  margin: 0;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */

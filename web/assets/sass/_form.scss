@@ -1,0 +1,108 @@
+.titre_form{
+  text-align: center;
+  font-style: italic;
+  color: $color_item_header_hover;
+  line-height: 3em;
+  margin:0;
+}
+
+.form_add_container{
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  padding: 5%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.4em;
+}
+
+.labels{
+  padding:0 !important;
+  text-align: left;
+}
+.fields{
+  padding:0;
+}
+
+.field_lyrics{
+  min-height:400px !important;
+}
+
+.returnbutton{
+  background-color: #003729 !important;
+  border-color: #003729;
+  &:hover{
+    border-color: #003729;
+    color: #6FA698!important;
+  }
+}
+
+/////boutons des form add///////
+.boutons{
+  margin:40px 0 0 0;
+}
+.returnbutton a{
+  text-decoration: none !important;
+  color: white;
+}
+.savebutton{
+  background-color: $color_item_header_hover !important;
+  border-color: #003729;
+  &:hover{
+    border-color: #6FA698;
+  }
+}
+
+//////////form login////////
+.login_style{
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.loginform{
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  border-radius: 10px;
+  margin: 120px auto 0 auto;
+  padding: 15px;
+}
+
+.login_title{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: $color_item_header;
+  font-size: 4em;
+  margin-top: 80px;
+}
+
+.lab_admin{
+  font-size: 1.5em;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.inp_admin{
+  font-size: 2em;
+}
+
+.checkbox{
+  width: 20px;
+  height: 20px;
+}
+
+.remember{
+  margin-top: 10px;
+  display: flex;
+  height: 50px;
+}
+
+.login_btn{
+  width: 30%;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 1.5em;
+  margin: auto;
+}

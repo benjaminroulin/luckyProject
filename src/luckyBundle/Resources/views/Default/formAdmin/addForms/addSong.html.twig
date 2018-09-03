@@ -1,0 +1,40 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+
+    <h1 class="titre_form">Ajouter un morceau</h1>
+    <div class="row justify-content-center">
+
+        <div class="form_add_container col-4">
+
+            {{ form_start(formView) }}
+
+            <div class="row form-group">
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.title) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.title, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.lyrics) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.lyrics, { 'attr': {'class': 'form-control field_lyrics'} }) }}
+                </div>
+            </div>
+            <div class="row boutons form-group d-flex justify-content-between">
+                <div class="btn btn-primary returnbutton">
+                    <a href="{{ path('lucky_admin') }}">Retour</a>
+                </div>
+                <div>
+                    {{ form_widget(formView.Sauvegarder) }}
+                </div>
+            </div>
+            {{ form_end(formView) }}
+
+        </div>
+    </div>
+{% endblock %}

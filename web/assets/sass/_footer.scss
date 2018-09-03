@@ -1,0 +1,21 @@
+.footer {
+  color: $color_footer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+
+}
+
+.icoL {
+  margin-right: 30px;
+}
+
+.icoR {
+  margin-left: 30px;
+}
+
+.footer_p{
+  margin-bottom: 0;
+  color: #cacaca;
+}

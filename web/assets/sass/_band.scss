@@ -1,0 +1,51 @@
+.membre{
+  margin: 20px;
+}
+
+.membres{
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.membres .membre:first-child{
+  background: url("../images/membreBen.jpg") no-repeat;
+  background-size: cover;
+}
+
+.name_style{
+  text-align: center;
+}
+
+.bio_style{
+  text-align: justify;
+}
+
+/////admin buttons/////
+
+.bandbtn{
+  width: 100%;
+  margin:30px 0 0 0;
+  text-align: center;
+  a{
+    text-decoration: none;
+  }
+}
+
+.updatebtn_band{
+  background: linear-gradient(to right, black 0%, grey 50%, black 100%);
+  border-radius: 0 0 15px 0;
+  font-size: 1.5em;
+  margin:0;
+  padding: 2px;
+  width: 35%;
+}
+
+.deletebtn_band{
+  background: linear-gradient(to right, black 0%, grey 50%, black 100%);
+  border-radius: 0 0 0 15px;
+  font-size: 1.5em;
+  margin:0;
+  padding: 2px;
+  width: 35%;
+
+}

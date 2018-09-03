@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/https/github.com/benjaminroulin/luckyProject.git" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/behat/transliterator" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/jms/metadata" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/vendor/vich/uploader-bundle" vcs="Git" />
+  </component>
+</project>

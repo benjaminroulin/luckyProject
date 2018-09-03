@@ -1,0 +1,35 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+
+<div class="container">
+    <div class="row justify-content-center admin_categories">
+        <div class="col-5 admin_category">
+            <h2>Songs</h2>
+            <a href="{{ path('lucky_addSong') }}"><p class="add_button">Ajouter</p></a>
+            <a href="{{ path('lucky_songs') }}"><p class="mod_button">Modifier</p></a>
+        </div>
+        <div class="col-5 admin_category">
+            <h2>Dates</h2>
+            <a href="{{ path('lucky_addDate') }}"><p class="add_button">Ajouter</p></a>
+            <a href="{{ path('lucky_date') }}"><p class="mod_button">Modifier</p></a>
+        </div>
+        <div class="col-5 admin_category">
+            <h2>Photos</h2>
+            <a href="{{ path('lucky_addPhoto') }}"><p class="add_button">Ajouter</p></a>
+            <p class="mod_button"><a href="{{ path('lucky_photos') }}">Supprimer</a></p>
+        </div>
+        <div class="col-5 admin_category">
+            <h2>Membres</h2>
+            <a href="{{ path('lucky_addMember') }}"><p class="add_button">Ajouter</p></a>
+            <a href="{{ path('lucky_band') }}"><p class="mod_button">Modifier</p></a>
+        </div>
+        <div class="col-5 admin_category">
+            <h2>Videos</h2>
+            <a href="{{ path('lucky_addVideo') }}"><p class="add_button">Ajouter</p></a>
+            <p class="mod_button"><a href="{{ path('lucky_videos') }}">Supprimer</a></p>
+        </div>
+    </div>
+</div>
+
+{% endblock%}

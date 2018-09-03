@@ -1,0 +1,27 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+    <h1 class="title_date">On se présente ...</h1>
+
+    <div class="container">
+        <div class="membres row">
+            {% for member in members %}
+
+                <div class="membre background-box col-5 img-fluid">
+                    <p class="col-12 name_style">{{ member.firstname }}</p>
+                    <p class="col-12 name_style">{{ member.nickname }}</p>
+                    <p class="col-12 bio_style">{{ member.biography }}</p>
+                    {% if is_granted('ROLE_ADMIN') %}
+                        <div class="container-fluid d-flex justify-content-between bandbtn">
+                            <p class="deletebtn_band"><a href="{{ path('lucky_deleteMember', {'id': member.id}) }}"
+                                                         class="deleteColor">Supprimer</a></p>
+                            <p class="updatebtn_band"><a href="{{ path('lucky_updateMember', {'id': member.id}) }}"
+                                                         class="updateColor">Modifier</a></p>
+                        </div>
+                    {% endif %}
+                </div>
+
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

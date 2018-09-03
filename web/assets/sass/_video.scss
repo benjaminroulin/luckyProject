@@ -1,0 +1,44 @@
+.title_videos{
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.video_frame{
+  background-color: black;
+  opacity: 0.6;
+  margin: 10px;
+  &:hover{
+    opacity:1;
+  }
+}
+
+.video_title{
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color: $color_item_header ;
+}
+
+.video_container{
+  margin-bottom: 30px;
+}
+
+/////delete button/////
+
+.deletebtn_video{
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+  border: none;
+  a{
+    text-decoration: none;
+    color: black !important;
+    &:hover {
+      color: red !important;
+    }
+  }
+}

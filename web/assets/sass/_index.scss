@@ -1,0 +1,45 @@
+.bg_home {
+  background-image: url("../images/guitar_home.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.main_titre {
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 10em;
+  margin: 40px 0 160px 0;
+  padding: 3%;
+  background: linear-gradient(to right, $color_item_header_hover 0%, #01261c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: titleAnim;
+  animation-duration: 2s;
+}
+
+@keyframes titleAnim {
+  From{
+    text-shadow: 0 0 3px $color_item_header_hover, 0 0 5px $color_item_header;
+  }
+  to{
+    text-shadow: none;
+  }
+}
+
+.homeslider{
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 150px;
+  width: 300px;
+  height: 150px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.colortext{
+  color: $color_item_header;
+}
+
+.no-mrg_no-pad{
+  margin:0;
+  padding:0;
+}

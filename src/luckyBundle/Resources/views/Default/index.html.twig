@@ -1,0 +1,40 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+
+    <div class="container-fluid bg_home img-fluid justify-content-center">
+        <div class="row ">
+            <h1 class="main_titre col-12">Lucky</h1>
+        </div>
+        <div class="row justify-content-center">
+            <div id="carouselExampleSlidesOnly" class="carousel slide " data-interval="2800" data-ride="carousel">
+
+                <div class="carousel-inner homeslider">
+                    {% for concert in concerts %}
+
+                        {% if loop.first %}
+                        <div class="carousel-item active homeslider">
+
+                            <div class="colortext carousel-caption d-none d-md-block no-mrg_no-pad">
+                                <p class="no-mrg_no-pad ">Prochaines Dates:</p>
+                                <h2 class="place no-mrg_no-pad ">{{ concert.place }}</h2>
+                                <p class="date no-mrg_no-pad ">{{ concert.date|date('m/d/y') }}</p>
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="carousel-item homeslider">
+                            <div class=" colortext carousel-caption d-none d-md-block no-mrg_no-pad">
+                                <p class="no-mrg_no-pad ">Prochaines Dates:</p>
+                                <h2 class="place no-mrg_no-pad">{{ concert.place }}</h2>
+                                <p class="date no_mrg_no-pad">{{ concert.date|date('m/d/y') }}</p>
+                            </div>
+                        </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

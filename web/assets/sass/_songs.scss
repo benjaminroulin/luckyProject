@@ -1,0 +1,64 @@
+.tips {
+  font-size: 0.5em;
+}
+
+.itemfont {
+  font-family: $cursive_font;
+  font-size: 1.4em;
+  line-height: 2em;
+}
+
+.song_list {
+  columns: 2;
+  column-gap: 50px;
+  width: 80%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  a {
+    text-decoration: none;
+    color: $color_item_header;
+    &:hover {
+      color: $color_item_header_hover;
+    }
+  }
+}
+
+.song_item {
+  margin: auto;
+}
+
+.column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  &:hover {
+    background-color: rgba(58, 119, 104, 0.1);
+  }
+}
+
+//////admin buttons/////
+.songsbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border-radius: 0 0 15px 15px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.updatebtn_song {
+  font-size: 1.2em;
+  margin: 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+}
+
+.deletebtn_song {
+  font-size: 1.2em;
+  margin: 0 0 0 10px;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+
+}

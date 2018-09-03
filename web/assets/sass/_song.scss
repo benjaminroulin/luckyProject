@@ -1,0 +1,19 @@
+.lyrics_container{
+  margin-top: 100px;
+}
+.song_title{
+  font-family: $cursive_font;
+  font-size: 5em;
+  background: linear-gradient(to right, $color_item_header_hover 0%, #01261c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+.song_lyrics{
+
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3em;
+  color: grey;
+}

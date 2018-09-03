@@ -1,0 +1,54 @@
+.background-box {
+  color: $color_item_header_hover;
+  background-image: url("../images/olivier.gif") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 83px 10px 10px 10px;
+  width: 300px;
+  height: 300px;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+.date{
+  margin: 10px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+
+.dates{
+  margin: 100px;
+  justify-content: center;
+}
+
+/////admin buttons/////
+
+.datesbtn{
+  width: 100%;
+  margin:30px 0 0 0;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0 0 15px 15px;
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.updatebtn_date{
+  font-size: 1.2em;
+  margin: 0 0 0 5px;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+
+}
+
+.deletebtn_date{
+  font-size: 1.2em;
+  margin: 0 0 0 0;
+  width: 50%;
+  background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
+
+}

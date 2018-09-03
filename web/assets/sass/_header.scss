@@ -1,0 +1,120 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.7);
+  height:10vh;
+  align-items: center;
+
+}
+/////// nav bar ////////
+.list_header {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.decobtn{
+  align-items: center;
+  position: absolute;
+  right : 30px;
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  border: none !important;
+  a{
+  color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+}
+
+.adminbtn{
+  align-items: center;
+  position: absolute;
+  left: 30px;
+  background: linear-gradient(to right, $color_item_header_hover 0%, #003729 100%);
+  border: none !important;
+  a{
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+    color: rgb(50,50,50);
+  }
+}
+
+.nav-link {
+  color: #458A79;
+}
+
+.item_header {
+  margin: 0 10px 0 0;
+  color: $color_item_header;
+  font-size: 1.6em;
+  position: relative;
+  text-align: center;
+}
+
+nav ul li:after{
+  display: block;
+  content: "";
+  background-color: $color_item_header_hover;
+  height: 2px;
+  width: 0;
+  position: absolute;
+  -moz-transition: width 0.7s;
+  -webkit-transition: width 0.7s;
+  transition: width 0.7s;
+}
+
+nav ul li:hover:after {
+  width: 100%;
+}
+
+.item_header :hover {
+  color: $color_item_header_hover;
+}
+
+/////// dropdown menu ///////
+.subMenu {
+  padding: 2px;
+  margin-left: 12px;
+  list-style-type: none;
+  line-height: 0.7em;
+  position: absolute;
+  z-index: 1000;
+  height:0;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow:hidden;
+  -moz-transition: height 0.7s;
+  -webkit-transition: height 0.7s;
+  transition: height 0.7s;
+}
+
+.list_header li:hover ul{
+  height: 3em;
+}
+
+.sub_nav{
+  font-size: 0.8em;
+}
+
+
+/////////burger menu///////
+.menu_burger {
+  display: none;
+}
+
+.img_burger {
+  width: 100px;
+  height: 100px;
+  margin: 0 10px 0 20px;
+  display: none;
+}
+
+
+

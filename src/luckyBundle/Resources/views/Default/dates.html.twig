@@ -1,0 +1,30 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+    {% block main %}
+        <h1 class="title_date">Venez nous voir jouer !</h1>
+
+
+        <div class="container">
+            <div class="dates row">
+                {% for concert in concerts %}
+                    <div class="date background-box col-5">
+                        <h2 class="col-12 place">{{ concert.place }}</h2>
+                        <p class=" col-12 ">{{ concert.date|date('m/d/y') }}</p>
+                        <p class=" col-12 address">{{ concert.address }}</p>
+                        {% if is_granted('ROLE_ADMIN') %}
+                                <div class="row datesbtn">
+                                    <p class="deletebtn_date col-5"><a
+                                                href="{{ path('lucky_deleteDate', {'id': concert.id}) }}" class="deleteColor" >Supprimer</a>
+                                    </p>
+                                    <p class="updatebtn_date col-5"><a
+                                                href="{{ path('lucky_updateDate', {'id': concert.id}) }} " class="updateColor">Modifier</a>
+                                    </p>
+                                </div>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+
+    {% endblock %}

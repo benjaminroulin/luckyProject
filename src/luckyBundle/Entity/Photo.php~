@@ -1,0 +1,170 @@
+<?php
+
+namespace luckyBundle\Entity;
+
+/**
+ * Photo
+ */
+class Photo
+{
+    /**
+     * @var string
+     */
+    private $imgName;
+
+    /**
+     * @var string
+     */
+    private $imgFile;
+
+    /**
+     * @var \DateTime
+     */
+    private $date;
+
+    /**
+     * @var string
+     */
+    private $alt;
+
+    /**
+     * @var integer
+     */
+    private $id;
+
+    /**
+     * @var \luckyBundle\Entity\Concert
+     */
+    private $concert;
+
+
+    /**
+     * Set imgName
+     *
+     * @param string $imgName
+     *
+     * @return Photo
+     */
+    public function setImgName($imgName)
+    {
+        $this->imgName = $imgName;
+
+        return $this;
+    }
+
+    /**
+     * Get imgName
+     *
+     * @return string
+     */
+    public function getImgName()
+    {
+        return $this->imgName;
+    }
+
+    /**
+     * Set imgFile
+     *
+     * @param string $imgFile
+     *
+     * @return Photo
+     */
+    public function setImgFile($imgFile)
+    {
+        $this->imgFile = $imgFile;
+
+        return $this;
+    }
+
+    /**
+     * Get imgFile
+     *
+     * @return string
+     */
+    public function getImgFile()
+    {
+        return $this->imgFile;
+    }
+
+    /**
+     * Set date
+     *
+     * @param \DateTime $date
+     *
+     * @return Photo
+     */
+    public function setDate($date)
+    {
+        $this->date = $date;
+
+        return $this;
+    }
+
+    /**
+     * Get date
+     *
+     * @return \DateTime
+     */
+    public function getDate()
+    {
+        return $this->date;
+    }
+
+    /**
+     * Set alt
+     *
+     * @param string $alt
+     *
+     * @return Photo
+     */
+    public function setAlt($alt)
+    {
+        $this->alt = $alt;
+
+        return $this;
+    }
+
+    /**
+     * Get alt
+     *
+     * @return string
+     */
+    public function getAlt()
+    {
+        return $this->alt;
+    }
+
+    /**
+     * Get id
+     *
+     * @return integer
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * Set concert
+     *
+     * @param \luckyBundle\Entity\Concert $concert
+     *
+     * @return Photo
+     */
+    public function setConcert(\luckyBundle\Entity\Concert $concert = null)
+    {
+        $this->concert = $concert;
+
+        return $this;
+    }
+
+    /**
+     * Get concert
+     *
+     * @return \luckyBundle\Entity\Concert
+     */
+    public function getConcert()
+    {
+        return $this->concert;
+    }
+}

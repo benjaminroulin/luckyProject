@@ -1,0 +1,29 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+    <h1 class="title_date">Les titres<span class="tips"> : clique sur un morceau pour connaitre les paroles</span></h1>
+
+    <div class="song_list">
+
+        {% for song in songs %}
+
+            <div class="column">
+                <p class="song_item"><a href="{{ path('lucky_lyrics', {'id': song.id}) }}"
+                                        class="itemfont">{{ song.title }}</a></p>
+                {% if is_granted('ROLE_ADMIN') %}
+                    <div class="songsbtn">
+                        <p class="updatebtn_song"><a href="{{ path('lucky_updateSong', {'id': song.id}) }}"
+                                                     class="updateColor">Modifier</a>
+                        </p>
+                        <p class="deletebtn_song"><a href="{{ path('lucky_deleteSong', {'id': song.id}) }}"
+                                                     class="deleteColor"
+                            >Supprimer</a></p>
+                    </div>
+                {% endif %}
+            </div>
+
+        {% endfor %}
+
+    </div>
+
+{% endblock %}

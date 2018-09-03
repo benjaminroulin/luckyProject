@@ -1,0 +1,90 @@
+lucky_homepage:
+    path:     /
+    defaults: { _controller: luckyBundle:Default:index }
+
+lucky_date:
+    path:     /date
+    defaults: { _controller: luckyBundle:Default:date }
+
+lucky_band:
+    path:     /band
+    defaults: { _controller: luckyBundle:Default:band }
+
+lucky_songs:
+    path:     /songs
+    defaults: { _controller: luckyBundle:Default:songs }
+
+lucky_videos:
+    path:     /videos
+    defaults: { _controller: luckyBundle:Default:videos }
+
+lucky_photos:
+    path:     /photos
+    defaults: { _controller: luckyBundle:Default:photos }
+
+lucky_lyrics:
+    path:     /song/{id}
+    defaults: { _controller: luckyBundle:Default:lyrics }
+
+
+
+##### admin routes ######
+lucky_admin:
+    path:     /admin/index
+    defaults: { _controller: luckyBundle:Default:admin }
+
+    ###   add   ###
+lucky_addSong:
+    path:     /admin/add_song
+    defaults: { _controller: luckyBundle:Default:addSong }
+
+lucky_addDate:
+    path:     /admin/add_date
+    defaults: { _controller: luckyBundle:Default:addDate }
+
+lucky_addMember:
+    path:     /admin/add_member
+    defaults: { _controller: luckyBundle:Default:addMember }
+
+lucky_addPhoto:
+   path:     /admin/add_photo
+   defaults: { _controller: luckyBundle:Default:addPhoto }
+
+lucky_addVideo:
+  path:     /admin/add_video
+  defaults: { _controller: luckyBundle:Default:addVideo }
+
+    ###   delete   ###
+lucky_deletePhoto:
+    path:     /admin/delete_photo/{id}
+    defaults: { _controller: luckyBundle:Default:deletePhoto }
+
+lucky_deleteSong:
+    path:     /admin/delete_song/{id}
+    defaults: { _controller: luckyBundle:Default:deleteSong }
+
+lucky_deleteDate:
+    path:     /admin/delete_date/{id}
+    defaults: { _controller: luckyBundle:Default:deleteDate }
+
+lucky_deleteMember:
+    path:     /admin/delete_member/{id}
+    defaults: { _controller: luckyBundle:Default:deleteMember }
+
+lucky_deleteVideo:
+  path:     /admin/delete_video/{id}
+  defaults: { _controller: luckyBundle:Default:deleteVideo }
+
+    ###   update   ###
+lucky_updateSong:
+    path:     /admin/update_song/{id}
+    defaults: { _controller: luckyBundle:Default:updateSong }
+
+lucky_updateDate:
+    path:     /admin/update_date/{id}
+    defaults: { _controller: luckyBundle:Default:updateDate }
+
+lucky_updateMember:
+    path:     /admin/update_member/{id}
+    defaults: { _controller: luckyBundle:Default:updateMember }
+

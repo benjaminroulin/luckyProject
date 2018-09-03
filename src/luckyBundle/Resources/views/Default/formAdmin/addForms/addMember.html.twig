@@ -1,0 +1,67 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+
+
+    <h1 class="titre_form">Ajouter un membre</h1>
+
+    <div class="row justify-content-center">
+
+        <div class="form_add_container col-4">
+
+            {{ form_start(formView) }}
+            <div class="row form-group">
+
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.firstname) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.firstname, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+
+            </div>
+            <div class="row form-group">
+
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.lastname) }}
+
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.lastname, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+
+            </div>
+            <div class="row form-group">
+
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.nickname) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.nickname, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+
+            </div>
+            <div class="row form-group">
+
+                <div class="labels col-form-label col-12">
+                    {{ form_label(formView.biography) }}
+                </div>
+                <div class="fields form_wid col-12">
+                    {{ form_widget(formView.biography, { 'attr': {'class': 'form-control field_lyrics'} }) }}
+                </div>
+            </div>
+
+            <div class="row boutons form-group d-flex justify-content-around">
+                <div class="btn btn-primary returnbutton">
+                    <a href="{{ path('lucky_admin') }}">Retour</a>
+                </div>
+                <div>
+                    {{ form_widget(formView.Sauvegarder) }}
+                </div>
+            </div>
+            {{ form_end(formView) }}
+        </div>
+    </div>
+
+
+{% endblock %}

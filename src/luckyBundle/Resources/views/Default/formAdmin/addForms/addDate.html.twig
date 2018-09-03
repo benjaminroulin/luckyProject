@@ -1,0 +1,47 @@
+{% extends '@lucky/Default/base.html.twig' %}
+
+{% block main %}
+
+    <h1 class="titre_form">Ajouter une date</h1>
+    <div class="row justify-content-center">
+
+        <div class="form_add_container col-4">
+            {{ form_start(formView) }}
+            <div class="row form-group">
+                <div class="labels  col-3">
+                    {{ form_label(formView.date) }}
+                </div>
+                <div class="fields form_wid col-9">
+                    {{ form_widget(formView.date, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="labels col-form-label col-3">
+                    {{ form_label(formView.place) }}
+                </div>
+                <div class="fields form_wid col-9">
+                    {{ form_widget(formView.place, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+            </div>
+            <div class="row form-group">
+                <div class="labels col-form-label col-3">
+                    {{ form_label(formView.address) }}
+                </div>
+                <div class="fields form_wid col-9">
+                    {{ form_widget(formView.address, { 'attr': {'class': 'form-control'} }) }}
+                </div>
+            </div>
+            <div class="row boutons form-group d-flex justify-content-around">
+                <div class="btn btn-primary returnbutton">
+                    <a href="{{ path('lucky_admin') }}">Retour</a>
+                </div>
+                <div>
+                    {{ form_widget(formView.Sauvegarder) }}
+                </div>
+            </div>
+
+            {{ form_end(formView) }}
+        </div>
+    </div>
+
+{% endblock %}
