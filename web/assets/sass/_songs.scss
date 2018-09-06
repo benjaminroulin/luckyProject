@@ -31,6 +31,8 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
+  border-radius: 8px;
+
   &:hover {
     background-color: rgba(58, 119, 104, 0.1);
   }

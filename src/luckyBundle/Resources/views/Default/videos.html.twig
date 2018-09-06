@@ -6,7 +6,7 @@
      <div class="container">
          <div class="row justify-content-center">
              {% for video in videos %}
-                 <div class="col-5 video_container ">
+                 <div class="col-12 col-md-12 col-lg-5 col-xl-5 video_container ">
                      <iframe width="560" height="315" src="{{ video.url }}" frameborder="0" allowfullscreen
                              class="col-12 video_frame"></iframe>
                      <h3 class="col-12 video_title">{{ video.song }}</h3>

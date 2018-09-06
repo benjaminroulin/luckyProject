@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec285b2-1776-4491-a5c0-06ee57c7bfdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/uploads/images/products/chateau ambulant.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/uploads/images/products/marnie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/images/olivier.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_band.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_band.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_dates.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_dates.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_general.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_general.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_photo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_photo.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_responsive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_song.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_song.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/assets/sass/_songs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/assets/sass/_songs.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,31 +37,31 @@
     <session id="799808405">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.6" value="4" />
-          <entry key="project.open.time.7" value="7" />
-          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.6" value="6" />
+          <entry key="project.open.time.7" value="10" />
+          <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="gitignore" value="3" />
+          <entry key="gitignore" value="5" />
           <entry key="jpg" value="1" />
           <entry key="json" value="6" />
           <entry key="lock" value="1" />
-          <entry key="php" value="81" />
+          <entry key="php" value="82" />
           <entry key="rst" value="3" />
-          <entry key="scss" value="107" />
-          <entry key="twig" value="158" />
+          <entry key="scss" value="134" />
+          <entry key="twig" value="170" />
           <entry key="xml" value="28" />
           <entry key="yml" value="21" />
         </counts>
@@ -56,21 +71,22 @@
           <entry key="CSS" value="2" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="7" />
-          <entry key="PHP" value="81" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PHP" value="82" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="ReST" value="3" />
-          <entry key="SCSS" value="107" />
-          <entry key="Twig" value="158" />
+          <entry key="SCSS" value="134" />
+          <entry key="Twig" value="170" />
           <entry key="XML" value="28" />
           <entry key="YAML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="20" />
           <entry key="json" value="9" />
           <entry key="php" value="1519" />
-          <entry key="scss" value="5515" />
-          <entry key="twig" value="4198" />
+          <entry key="scss" value="8407" />
+          <entry key="twig" value="4963" />
           <entry key="xml" value="118" />
           <entry key="yml" value="818" />
         </counts>
@@ -79,8 +95,9 @@
         <counts>
           <entry key="JSON" value="9" />
           <entry key="PHP" value="1519" />
-          <entry key="SCSS" value="5515" />
-          <entry key="Twig" value="4198" />
+          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="SCSS" value="8407" />
+          <entry key="Twig" value="4963" />
           <entry key="XML" value="118" />
           <entry key="YAML" value="818" />
         </counts>
@@ -96,35 +113,7 @@
     <favorites_list name="luckyProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/sass/_photo.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <replaceStrings>
@@ -143,8 +132,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/assets/sass/admin.scss" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/config/doctrine/Concert.orm.xml" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/config/doctrine/Photo.orm.xml" />
@@ -161,23 +148,12 @@
         <option value="$PROJECT_DIR$/web/assets/sass/_addSong.scss" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login_content.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_header.scss" />
         <option value="$PROJECT_DIR$/web/assets/sass/_variables.scss" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_general.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/songs.html.twig" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/web/assets/sass/style.scss" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_song.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_index.scss" />
         <option value="$PROJECT_DIR$/web/assets/sass/_admin.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_band.scss" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_songs.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_dates.scss" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addSong.html.twig" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addVideo.html.twig" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addDate.html.twig" />
@@ -187,13 +163,26 @@
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addMember.html.twig" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/updateForms/updateMember.html.twig" />
         <option value="$PROJECT_DIR$/web/assets/sass/_video.scss" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig" />
-        <option value="$PROJECT_DIR$/web/assets/sass/_photo.scss" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/formAdmin/addForms/addPhoto.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/PhotoType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Photo.php" />
-        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_songs.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_photo.scss" />
         <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_general.scss" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_index.scss" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_dates.scss" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_band.scss" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_song.scss" />
+        <option value="$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_responsive.scss" />
+        <option value="$PROJECT_DIR$/web/assets/sass/_header.scss" />
       </list>
     </option>
   </component>
@@ -202,6 +191,20 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-autoplay/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-fullscreen/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-hash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-pager/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-share/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-thumbnail/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-video/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lg-zoom/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/lightgallery/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration">
@@ -251,9 +254,10 @@
       <path value="$PROJECT_DIR$/vendor/behat/transliterator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1929" />
-    <option name="width" value="1936" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="3" />
+    <option name="width" value="1917" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -262,7 +266,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,20 +282,14 @@
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -300,6 +297,30 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Form" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luckyBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Default" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -326,31 +347,11 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="luckyProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="luckyProject" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="uploads" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -417,17 +418,22 @@
       <workItem from="1535972137787" duration="7908000" />
       <workItem from="1535980682116" duration="321000" />
       <workItem from="1535981362380" duration="5664000" />
+      <workItem from="1536044739803" duration="9349000" />
+      <workItem from="1536070310669" duration="3583000" />
+      <workItem from="1536132937030" duration="12899000" />
+      <workItem from="1536155229909" duration="4500000" />
+      <workItem from="1536170749670" duration="1021000" />
+      <workItem from="1536217346555" duration="17841000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171999000" />
+    <option name="totallyTimeSpent" value="221192000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1929" y="0" width="1936" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85555553" visible="true" weight="0.18496802" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85555553" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.14444445" side_tool="true" weight="0.27985075" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -440,7 +446,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733475" visible="true" weight="0.3187773" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49733475" visible="true" weight="0.36334056" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5026652" side_tool="true" weight="0.3167028" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -478,8 +484,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_addSong.scss" />
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_^photo.scss" />
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -524,13 +528,6 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Group/new.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="728">
@@ -549,34 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
           <caret line="23" column="113" selection-start-line="23" selection-start-column="104" selection-end-line="23" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="22" selection-start-line="9" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_general.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="285" column="9" selection-start-line="285" selection-start-column="9" selection-end-line="285" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -601,27 +570,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_song.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="24" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/songs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -633,34 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_songs.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="58" column="1" selection-start-line="58" selection-start-column="1" selection-end-line="61" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_band.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
@@ -727,24 +647,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/assets/sass/_dates.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/sass/_admin.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="33" column="3" selection-start-line="30" selection-start-column="2" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -762,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-442">
           <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#34#74#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,24 +688,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_songs.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="105" column="7" selection-start-line="105" selection-start-column="7" selection-end-line="105" selection-end-column="7" />
+        <state relative-caret-position="104">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/assets/sass/_photo.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="208">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3370">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/photos.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_general.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_dates.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/dates.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="9" column="86" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/band.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_band.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1040">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_song.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/videos.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="24" column="106" selection-start-line="24" selection-start-column="96" selection-end-line="24" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="110" column="20" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/luckyBundle/Resources/views/Default/song.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/sass/_responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="397" column="34" selection-start-line="397" selection-start-column="34" selection-end-line="397" selection-end-column="34" />
         </state>
       </provider>
     </entry>

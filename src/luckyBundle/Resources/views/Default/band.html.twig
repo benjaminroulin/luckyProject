@@ -7,8 +7,7 @@
         <div class="membres row">
             {% for member in members %}
 
-                <div class="membre background-box col-5 img-fluid">
-                    <p class="col-12 name_style">{{ member.firstname }}</p>
+                <div class="membre background-box-band col-12 col-md-12 col-lg-5  img-fluid">
                     <p class="col-12 name_style">{{ member.nickname }}</p>
                     <p class="col-12 bio_style">{{ member.biography }}</p>
                     {% if is_granted('ROLE_ADMIN') %}

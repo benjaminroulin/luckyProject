@@ -1,42 +1,36 @@
 .bg_home {
-  background-image: url("../images/guitar_home.jpg");
-  background-size: cover;
+  background-image: url("../images/cello-background.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
   width: 100%;
   height: 100vh;
 }
 
 .main_titre {
-  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 10em;
-  margin: 40px 0 160px 0;
-  padding: 3%;
-  background: linear-gradient(to right, $color_item_header_hover 0%, #01261c 100%);
+  margin: 7% 0 11% 0%;
+  background: linear-gradient(to right, #01261c 5%, $color_item_header_hover 40%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation-name: titleAnim;
-  animation-duration: 2s;
-}
-
-@keyframes titleAnim {
-  From{
-    text-shadow: 0 0 3px $color_item_header_hover, 0 0 5px $color_item_header;
-  }
-  to{
-    text-shadow: none;
-  }
+  padding-bottom: 20px;
+  padding-left: 4%;
 }
 
 .homeslider{
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(58, 119, 104, 0.1);
   border-radius: 150px;
   width: 300px;
   height: 150px;
   font-family: 'Montserrat', sans-serif;
 }
 
+.homesliderparent{
+  margin-left: 6%;
+}
+
 .colortext{
-  color: $color_item_header;
+  color: $color_item_header_hover;
 }
 
 .no-mrg_no-pad{

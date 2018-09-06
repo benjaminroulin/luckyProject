@@ -15,7 +15,8 @@ a {
   color: #cacaca; }
 
 .main {
-  min-height: 90vh; }
+  min-height: 90vh;
+  padding: 0; }
 
 .title_date {
   background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
@@ -115,12 +116,21 @@ nav ul li:hover:after {
 
 .menu_burger {
   display: none; }
+  .menu_burger:after {
+    content: "MENU";
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    color: #30CFD0; }
 
 .img_burger {
   width: 100px;
   height: 100px;
-  margin: 0 10px 0 20px;
-  display: none; }
+  display: none;
+  position: absolute;
+  z-index: 1001;
+  top: 2px;
+  right: 10px; }
 
 .footer {
   color: #999999;
@@ -139,106 +149,387 @@ nav ul li:hover:after {
   margin-bottom: 0;
   color: #cacaca; }
 
-@media screen and (min-width: 735px) and (max-width: 1024px) {
+@media screen and (min-width: 870px) and (max-width: 1024px) {
   .item_header {
     margin: 0 10px 0 0;
     color: #458A79;
     font-size: 1.3em; }
 
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 10%; } }
-@media screen and (min-width: 600px) and (max-width: 735px) {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    width: 1024px;
+    margin-top: 7%; }
+
+  .main_titre {
+    margin: 7% 0 10% 23% !important; }
+
+  .homesliderparent {
+    margin-left: 31% !important; } }
+@media screen and (min-width: 768px) and (max-width: 870px) {
   .item_header {
     margin: 0 10px 0 0;
     color: #458A79;
     font-size: 1.3em; }
 
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 735px;
-    height: 350px;
-    margin-top: 10%; } }
-@media screen and (min-width: 425px) and (max-width: 600px) {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin-top: 7%;
+    height: 100% !important; }
+
+  .main_titre {
+    margin: 7% 0 5% 23% !important; }
+
+  .homesliderparent {
+    margin-left: 35% !important;
+    margin-bottom: 2%; }
+
+  .homeslider {
+    font-size: 1em !important;
+    border-radius: 100px !important;
+    width: 250px !important;
+    height: 125px !important; }
+
+  .main {
+    min-height: 70vh !important; } }
+@media screen and (min-width: 735px) and (max-width: 768px) {
   .item_header {
     margin: 0 10px 0 0;
     color: #458A79;
     font-size: 1.3em; }
 
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 735px;
-    height: 350px;
-    margin-top: 10%; }
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin-top: 7%;
+    height: 100% !important; }
+
+  .main_titre {
+    margin: 7% 0 5% 23% !important; }
+
+  .homesliderparent {
+    margin-left: 35% !important;
+    margin-bottom: 2%; }
+
+  .homeslider {
+    font-size: 1em !important;
+    border-radius: 100px !important;
+    width: 250px !important;
+    height: 125px !important; }
+
+  .place {
+    font-size: 1.1em !important; }
+
+  .main {
+    min-height: 70vh !important; } }
+@media screen and (min-width: 480px) and (max-width: 735px) {
+  .homesliderparent {
+    display: none; }
+
+  .main_titre {
+    font-size: 8em !important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, #30CFD0 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important; }
+
+  .container_row {
+    margin: 100px 0 0 0 !important; }
+
+  .bg_home {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 100% !important; }
+
+  .main {
+    min-height: 80vh !important; }
 
   .nav_header {
     display: none; }
 
   .menu_burger {
-    display: none; }
+    display: block;
+    position: relative; }
 
   .img_burger {
-    display: block; } }
+    display: block; }
+
+  .list_burger {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute !important;
+    right: -100px;
+    top: 90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px !important; }
+
+  .list-burger-show {
+    animation: listburgershow .6s forwards; }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top: 90px; }
+    to {
+      right: 0;
+      top: 90px; } }
+  .item_burger a:hover {
+    color: #30CFD0 !important; }
+
+  .title_date {
+    font-size: 2.5em !important; }
+
+  .title_photos {
+    font-size: 2.3em !important; }
+
+  .title_videos {
+    font-size: 2.3em !important; }
+
+  .background-box {
+    font-size: 0.9em !important; }
+
+  .place {
+    font-size: 1.4em !important; } }
+@media screen and (min-width: 425px) and (max-width: 480px) {
+  .homesliderparent {
+    display: none; }
+
+  .main_titre {
+    font-size: 8em !important;
+    margin: 150px 0 400px 0 !important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, #30CFD0 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important; }
+
+  .container_row {
+    margin: 100px 0 0 0 !important; }
+
+  .bg_home {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 100% !important; }
+
+  .main {
+    min-height: 80vh !important; }
+
+  .nav_header {
+    display: none; }
+
+  .menu_burger {
+    display: block;
+    position: relative; }
+
+  .img_burger {
+    display: block; }
+
+  .list_burger {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute !important;
+    right: -100px;
+    top: 90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px !important; }
+
+  .list-burger-show {
+    animation: listburgershow 1s forwards; }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top: 90px; }
+    to {
+      right: 0;
+      top: 90px; } }
+  .item_burger a:hover {
+    color: #30CFD0 !important; }
+
+  .background-box {
+    font-size: 0.8em !important; }
+
+  .dates {
+    margin: 100px 70px 0 70px !important; }
+
+  .place {
+    font-size: 1.3em !important; }
+
+  .title_date {
+    font-size: 2.3em !important; }
+
+  .title_photos {
+    font-size: 2.3em !important; }
+
+  .title_videos {
+    font-size: 2.3em !important; } }
 @media screen and (min-width: 375px) and (max-width: 425px) {
-  .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 425px;
-    height: 200px;
-    margin-top: 10%; }
+  .homesliderparent {
+    display: none; }
 
   .main_titre {
-    font-size: 5em;
-    margin-top: 1%; }
+    font-size: 6em !important;
+    margin: 150px 0 400px 0 !important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, #30CFD0 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important; }
+
+  .container_row {
+    margin: 100px 0 0 0 !important; }
+
+  .bg_home {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 100% !important; }
+
+  .main {
+    min-height: 80vh !important; }
 
   .nav_header {
     display: none; }
 
   .menu_burger {
-    display: none; }
+    display: block;
+    position: relative; }
 
   .img_burger {
-    display: block; } }
+    display: block; }
+
+  .list_burger {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute !important;
+    right: -100px;
+    top: 90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px !important; }
+
+  .list-burger-show {
+    animation: listburgershow 1s forwards; }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top: 90px; }
+    to {
+      right: 0;
+      top: 90px; } }
+  .item_burger a:hover {
+    color: #30CFD0 !important; }
+
+  .title_date {
+    font-size: 2.3em !important; }
+
+  .title_photos {
+    font-size: 2.3em !important; }
+
+  .title_videos {
+    font-size: 2.3em !important; }
+
+  .background-box {
+    font-size: 0.8em !important; }
+
+  .dates {
+    margin: 100px 70px 0 70px !important; }
+
+  .place {
+    font-size: 1.3em !important; } }
 @media screen and (max-width: 375px) {
-  .bg_home {
-    width: 375px;
-    height: 200px;
-    margin-top: 10%; }
+  .homesliderparent {
+    display: none; }
 
   .main_titre {
-    font-size: 5em;
-    margin-top: 1%; }
+    font-size: 4em !important;
+    margin: 150px 0 400px 0 !important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, #30CFD0 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important; }
+
+  .container_row {
+    margin: 70px 0 0 0 !important; }
+
+  .bg_home {
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    height: 100% !important; }
+
+  .main {
+    min-height: 80vh !important; }
 
   .nav_header {
     display: none; }
 
   .menu_burger {
-    display: none; }
+    display: block;
+    position: relative; }
 
   .img_burger {
-    display: block; } }
+    display: block; }
+
+  .list_burger {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute !important;
+    right: -100px;
+    top: 90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px !important; }
+
+  .list-burger-show {
+    animation: listburgershow 1s forwards; }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top: 90px; }
+    to {
+      right: 0;
+      top: 90px; } }
+  .item_burger a:hover {
+    color: #30CFD0 !important; }
+
+  .title_date {
+    font-size: 2.3em !important; }
+
+  .title_photos {
+    font-size: 2.3em !important; }
+
+  .title_videos {
+    font-size: 2.3em !important; }
+
+  .background-box {
+    font-size: 0.8em !important; }
+
+  .place {
+    font-size: 1.1em !important; }
+
+  .dates {
+    margin: 100px 70px 0 70px !important; } }
 .background-box {
   color: #30CFD0;
-  background-image: url("../images/olivier.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 20px;
-  padding: 83px 10px 10px 10px;
-  width: 300px;
-  height: 300px;
+  background-color: rgba(58, 119, 104, 0.1);
+  border-radius: 8px;
+  padding: 35px 10px 30px 10px;
   font-family: 'Montserrat', sans-serif; }
 
 .date {
@@ -306,19 +597,148 @@ nav ul li:hover:after {
 .membre {
   margin: 20px; }
 
+.background-box-band {
+  color: #01261c;
+  border-radius: 8px;
+  padding: 10px; }
+
 .membres {
   justify-content: center;
-  margin-top: 200px; }
+  margin-top: 100px;
+  perspective: 2000px; }
 
 .membres .membre:first-child {
-  background: url("../images/membreBen.jpg") no-repeat;
-  background-size: cover; }
+  background: url("../images/membreBenCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(35deg);
+  animation: moveOutFirst 3s; }
+  .membres .membre:first-child:hover {
+    animation: moveInFirst 2s forwards; }
+    .membres .membre:first-child:hover .bio_style {
+      animation: backgroundBandBio 2s forwards; }
+    .membres .membre:first-child:hover .name_style {
+      animation: backgroundBandName 2s forwards; }
 
+@keyframes backgroundBandBio {
+  To {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    width: 60%; } }
+@keyframes backgroundBandName {
+  To {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: auto;
+    padding: 0 0 0 10px; } }
+@keyframes moveInFirst {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreBen.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; } }
+@keyframes moveOutFirst {
+  From {
+    transform: rotateY(1deg);
+    background: url("../images/membreBen.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; }
+  To {
+    transform: rotateY(35deg); } }
+.membre:nth-child(2) {
+  background: url("../images/membreVinzCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(-35deg);
+  animation: moveOutSecond 3s; }
+  .membre:nth-child(2):hover {
+    animation: moveInSecond 2s forwards; }
+    .membre:nth-child(2):hover .bio_style {
+      animation: backgroundBandBio 2s forwards; }
+    .membre:nth-child(2):hover .name_style {
+      animation: backgroundBandName 2s forwards; }
+
+@keyframes moveInSecond {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreVinz.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; } }
+@keyframes moveOutSecond {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreVinz.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; }
+  To {
+    transform: rotateY(-35deg); } }
+.membre:nth-child(3) {
+  background: url("../images/membreAlexCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(35deg);
+  animation: moveOutThird 3s; }
+  .membre:nth-child(3):hover {
+    animation: moveInThird 2s forwards; }
+    .membre:nth-child(3):hover .bio_style {
+      animation: backgroundBandBio 2s forwards; }
+    .membre:nth-child(3):hover .name_style {
+      animation: backgroundBandName 2s forwards; }
+
+@keyframes moveInThird {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreAlex.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; } }
+@keyframes moveOutThird {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreAlex.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; }
+  To {
+    transform: rotateY(35deg); } }
+.membre:nth-child(4) {
+  background: url("../images/membreMorganeCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(-35deg);
+  animation: moveOutFourth 3s; }
+  .membre:nth-child(4):hover {
+    animation: moveInFourth 2s forwards; }
+    .membre:nth-child(4):hover .bio_style {
+      animation: backgroundBandBio 2s forwards; }
+    .membre:nth-child(4):hover .name_style {
+      animation: backgroundBandName 2s forwards; }
+
+@keyframes moveInFourth {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreMorgane.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; } }
+@keyframes moveOutFourth {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreMorgane.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1; }
+  To {
+    transform: rotateY(-35deg); } }
+@keyframes moveInRight {
+  From {
+    transform: rotateY(0deg); }
+  To {
+    transform: rotateY(-35deg); } }
 .name_style {
+  font-family: "Kaushan Script";
+  font-size: 3em;
+  margin: auto;
   text-align: center; }
 
 .bio_style {
-  text-align: justify; }
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+  width: 60%;
+  margin-top: 35px; }
 
 .bandbtn {
   width: 100%;
@@ -486,7 +906,7 @@ nav ul li:hover:after {
 
 .deletebtn_photo {
   font-size: 1.2em;
-  margin: 0 0 0 0;
+  margin: 0 0 30px 0;
   width: 50%;
   background: linear-gradient(to right, darkgrey 0%, grey 50%, darkgrey 100%);
   border: none; }
@@ -522,7 +942,8 @@ nav ul li:hover:after {
 .column {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+  border-radius: 8px; }
   .column:hover {
     background-color: rgba(58, 119, 104, 0.1); }
 
@@ -563,40 +984,43 @@ nav ul li:hover:after {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 1.3em;
-  color: grey; }
+  color: black;
+  background: url("../images/olivier.jpg");
+  background-size: cover;
+  padding: 100px 20px 20px 20px;
+  border-radius: 8px;
+  width: 60%;
+  min-height: 800px; }
 
 .bg_home {
-  background-image: url("../images/guitar_home.jpg");
-  background-size: cover;
+  background-image: url("../images/cello-background.jpg");
+  background-size: contain;
+  background-repeat: repeat-x;
   width: 100%;
   height: 100vh; }
 
 .main_titre {
-  text-align: center;
   font-family: 'Kaushan Script', cursive;
   font-size: 10em;
-  margin: 40px 0 160px 0;
-  padding: 3%;
-  background: linear-gradient(to right, #30CFD0 0%, #01261c 100%);
+  margin: 7% 0 11% 0%;
+  background: linear-gradient(to right, #01261c 5%, #30CFD0 40%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation-name: titleAnim;
-  animation-duration: 2s; }
+  padding-bottom: 20px;
+  padding-left: 4%; }
 
-@keyframes titleAnim {
-  From {
-    text-shadow: 0 0 3px #30CFD0, 0 0 5px #458A79; }
-  to {
-    text-shadow: none; } }
 .homeslider {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(58, 119, 104, 0.1);
   border-radius: 150px;
   width: 300px;
   height: 150px;
   font-family: 'Montserrat', sans-serif; }
 
+.homesliderparent {
+  margin-left: 6%; }
+
 .colortext {
-  color: #458A79; }
+  color: #30CFD0; }
 
 .no-mrg_no-pad {
   margin: 0;

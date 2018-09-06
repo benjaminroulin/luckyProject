@@ -2,22 +2,214 @@
   margin: 20px;
 }
 
-.membres{
-  justify-content: center;
-  margin-top: 200px;
+.background-box-band{
+  color: #01261c;
+  border-radius: 8px;
+  padding: 10px;
 }
 
-.membres .membre:first-child{
-  background: url("../images/membreBen.jpg") no-repeat;
+.membres{
+  justify-content: center;
+  margin-top: 100px;
+  perspective: 2000px;
+}
+
+.membres .membre:first-child {
+  background: url("../images/membreBenCarbonite.jpg") no-repeat;
   background-size: cover;
+  transform: rotateY(35deg);
+  &:hover{
+    animation : moveInFirst 2s forwards;
+    .bio_style{
+      animation : backgroundBandBio 2s forwards;
+    }
+    .name_style{
+      animation : backgroundBandName 2s forwards;
+    }
+  }
+  animation : moveOutFirst 3s;
+}
+
+@keyframes backgroundBandBio {
+  from {
+
+  }
+  To {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 8px;
+    width:60%;
+  }
+}
+@keyframes backgroundBandName {
+  from {
+
+  }
+  To {
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 8px;
+    margin: auto;
+    padding:0 0 0 10px;
+  }
+}
+
+
+@keyframes moveInFirst {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreBen.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+}
+
+@keyframes moveOutFirst {
+  From {
+    transform: rotateY(1deg);
+    background: url("../images/membreBen.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+  To {
+    transform: rotateY(35deg);
+  }
+}
+
+
+.membre:nth-child(2){
+  background: url("../images/membreVinzCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(-35deg);
+  &:hover{
+    animation : moveInSecond 2s forwards;
+    .bio_style{
+      animation : backgroundBandBio 2s forwards;
+    }
+    .name_style{
+      animation : backgroundBandName 2s forwards;
+    }
+  }
+  animation : moveOutSecond 3s;
+}
+
+@keyframes moveInSecond {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreVinz.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+}
+
+@keyframes moveOutSecond {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreVinz.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+  To {
+    transform: rotateY(-35deg);
+  }
+}
+
+.membre:nth-child(3){
+  background: url("../images/membreAlexCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(35deg);
+  &:hover{
+    animation : moveInThird 2s forwards;
+    .bio_style{
+      animation : backgroundBandBio 2s forwards;
+    }
+    .name_style{
+      animation : backgroundBandName 2s forwards;
+    }
+  }
+  animation : moveOutThird 3s;
+}
+
+@keyframes moveInThird {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreAlex.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+}
+
+@keyframes moveOutThird {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreAlex.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+  To {
+    transform: rotateY(35deg);
+  }
+}
+
+.membre:nth-child(4){
+  background: url("../images/membreMorganeCarbonite.jpg") no-repeat;
+  background-size: cover;
+  transform: rotateY(-35deg);
+  &:hover{
+    animation : moveInFourth 2s forwards;
+    .bio_style{
+      animation : backgroundBandBio 2s forwards;
+    }
+    .name_style{
+      animation : backgroundBandName 2s forwards;
+    }
+  }
+  animation : moveOutFourth 3s;
+}
+
+@keyframes moveInFourth {
+  To {
+    transform: rotateY(0deg);
+    background: url("../images/membreMorgane.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+}
+
+@keyframes moveOutFourth {
+  From {
+    transform: rotateY(0deg);
+    background: url("../images/membreMorgane.jpg") no-repeat;
+    background-size: cover;
+    color: #2ec0c1;
+  }
+  To {
+    transform: rotateY(-35deg);
+  }
+}
+
+
+
+@keyframes moveInRight {
+  From {
+    transform: rotateY(0deg);
+  }
+  To {
+    transform: rotateY(-35deg);
+  }
 }
 
 .name_style{
+  font-family: $cursive_font;
+  font-size: 3em;
+  margin: auto;
   text-align: center;
 }
 
 .bio_style{
-  text-align: justify;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 1.2em;
+  width:60%;
+  margin-top: 35px;
 }
 
 /////admin buttons/////

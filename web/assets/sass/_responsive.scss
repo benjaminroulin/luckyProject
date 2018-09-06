@@ -1,23 +1,10 @@
-@media screen and (min-width: 735px) and (max-width: 1024px) {
-
-  .item_header {
-    margin: 0 10px 0 0;
-    color: #458A79;
-    font-size: 1.3em;
-  }
-
-  .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    margin-top: 10%;
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .song_lyrics{
+   // width: 800px !important;
   }
 }
 
-@media screen and (min-width: 600px) and (max-width: 735px) {
+@media screen and (min-width: 870px) and (max-width: 1024px) {
 
   .item_header {
     margin: 0 10px 0 0;
@@ -26,99 +13,465 @@
   }
 
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 735px;
-    height: 350px;
-    margin-top: 10%;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    width: 1024px;
+    margin-top: 7%;
+  }
+
+  .main_titre{
+    margin: 7% 0 10% 23% !important;
+  }
+
+  .homesliderparent{
+    margin-left: 31% !important;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 600px) {
 
+
+@media screen and (min-width: 768px) and (max-width: 870px) {
   .item_header {
     margin: 0 10px 0 0;
     color: #458A79;
     font-size: 1.3em;
   }
-
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 735px;
-    height: 350px;
-    margin-top: 10%;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin-top: 7%;
+    height: 100% !important;
+
+  }
+  .main_titre{
+    margin: 7% 0 5% 23% !important;
+  }
+  .homesliderparent{
+    margin-left: 35% !important;
+    margin-bottom: 2%;
+  }
+  .homeslider{
+    font-size: 1em!important;
+    border-radius: 100px!important;
+    width: 250px!important;
+    height: 125px!important;
+  }
+
+  .main{
+    min-height: 70vh!important;
+  }
+}
+
+@media screen and (min-width: 735px) and (max-width: 768px) {
+  .item_header {
+    margin: 0 10px 0 0;
+    color: #458A79;
+    font-size: 1.3em;
+  }
+  .bg_home {
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    width: 900px;
+    margin-top: 7%;
+    height: 100% !important;
+
+  }
+  .main_titre{
+    margin: 7% 0 5% 23% !important;
+  }
+  .homesliderparent{
+    margin-left: 35% !important;
+    margin-bottom: 2%;
+  }
+  .homeslider{
+    font-size: 1em!important;
+    border-radius: 100px!important;
+    width: 250px!important;
+    height: 125px!important;
+  }
+  .place{
+    font-size: 1.1em!important;
+  }
+  .main{
+    min-height: 70vh!important;
+  }
+
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 735px) {
+
+
+  .homesliderparent{
+    display: none;
+  }
+  .main_titre{
+    font-size: 8em !important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, $color_item_header_hover 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important;
+  }
+  .container_row{
+    margin: 100px 0 0 0 !important;
+  }
+  .bg_home {
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    height: 100% !important;
+  }
+  .main{
+    min-height: 80vh!important;
   }
   .nav_header{
     display: none;
   }
 
   .menu_burger {
-    display: none;
+    display: block;
+    position: relative;
   }
 
   .img_burger{
     display: block;
   }
+
+  .list_burger{
+    background-color: rgba(0, 0, 0, .9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute!important;
+    right: -100px;
+    top:90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px!important;
+  }
+
+  .list-burger-show{
+    animation: listburgershow .6s forwards;
+  }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top:90px;
+    }
+    to{
+      right: 0;
+      top:90px;
+    }
+  }
+
+  .item_burger a:hover {
+    color: $color_item_header_hover!important;
+  }
+  .title_date{
+    font-size: 2.5em!important;
+
+  }
+  .title_photos{
+    font-size: 2.3em!important;
+
+  }
+  .title_videos{
+    font-size: 2.3em!important;
+  }
+  .background-box{
+    font-size: 0.9em!important;
+  }
+  .place{
+    font-size: 1.4em!important;
+
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 480px) {
+  .homesliderparent{
+    display: none;
+  }
+  .main_titre{
+    font-size: 8em !important;
+    margin: 150px 0 400px 0!important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, $color_item_header_hover 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important;
+  }
+  .container_row{
+    margin: 100px 0 0 0 !important;
+  }
+
+  .bg_home {
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    height: 100% !important;
+  }
+  .main{
+    min-height: 80vh!important;
+  }
+  .nav_header{
+    display: none;
+  }
+
+  .menu_burger {
+    display: block;
+    position: relative;
+  }
+
+  .img_burger{
+    display: block;
+  }
+
+  .list_burger{
+    background-color: rgba(0, 0, 0, .9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute!important;
+    right: -100px;
+    top:90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px!important;
+  }
+
+  .list-burger-show{
+    animation: listburgershow 1s forwards;
+  }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top:90px;
+    }
+    to{
+      right: 0;
+      top:90px;
+    }
+  }
+
+  .item_burger a:hover {
+    color: $color_item_header_hover!important;
+  }
+
+  .background-box{
+    font-size: 0.8em!important;
+  }
+  .dates{
+    margin: 100px 70px 0 70px!important;
+
+  }
+  .place{
+    font-size: 1.3em!important;
+
+  }
+  .title_date{
+    font-size: 2.3em!important;
+
+  }
+  .title_photos{
+    font-size: 2.3em!important;
+
+  }
+  .title_videos{
+    font-size: 2.3em!important;
+  }
+
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 425px) {
 
+  .homesliderparent{
+    display: none;
+  }
+  .main_titre{
+    font-size: 6em !important;
+    margin: 150px 0 400px 0!important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, $color_item_header_hover 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important;
+  }
+
+  .container_row{
+    margin: 100px 0 0 0 !important;
+  }
+
   .bg_home {
-    background-image: url("../images/guitar_home.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    width: 425px;
-    height: 200px;
-    margin-top: 10%;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    height: 100% !important;
   }
-
-  .main_titre {
-    font-size: 5em;
-    margin-top: 1%;
+  .main{
+    min-height: 80vh!important;
   }
-
   .nav_header{
     display: none;
   }
 
   .menu_burger {
-    display: none;
+    display: block;
+    position: relative;
   }
+
   .img_burger{
     display: block;
   }
 
+  .list_burger{
+    background-color: rgba(0, 0, 0, .9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute!important;
+    right: -100px;
+    top:90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px!important;
+  }
+
+  .list-burger-show{
+    animation: listburgershow 1s forwards;
+  }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top:90px;
+    }
+    to{
+      right: 0;
+      top:90px;
+    }
+  }
+
+  .item_burger a:hover {
+    color: $color_item_header_hover!important;
+  }
+  .title_date{
+    font-size: 2.3em!important;
+
+  }
+  .title_photos{
+    font-size: 2.3em!important;
+
+  }
+  .title_videos{
+    font-size: 2.3em!important;
+  }
+  .background-box{
+    font-size: 0.8em!important;
+  }
+  .dates{
+    margin: 100px 70px 0 70px!important;
+
+  }
+  .place{
+    font-size: 1.3em!important;
+
+  }
 }
 
 @media screen and (max-width: 375px) {
+  .homesliderparent{
+    display: none;
+  }
+  .main_titre{
+    font-size: 4em !important;
+    margin: 150px 0 400px 0!important;
+    text-align: center;
+    background: linear-gradient(to right, #01261c 30%, $color_item_header_hover 70%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin-top: 12% !important;
+  }
 
+  .container_row{
+    margin: 70px 0 0 0 !important;
+  }
   .bg_home {
-
-    width: 375px;
-    height: 200px;
-    margin-top: 10%;
+    background-size: contain!important;
+    background-repeat: no-repeat;
+    height: 100% !important;
   }
-
-  .main_titre {
-    font-size: 5em;
-    margin-top: 1%;
+  .main{
+    min-height: 80vh!important;
   }
-
   .nav_header{
     display: none;
   }
 
   .menu_burger {
-    display: none;
+    display: block;
+    position: relative;
   }
+
   .img_burger{
     display: block;
   }
 
+  .list_burger{
+    background-color: rgba(0, 0, 0, .9) !important;
+    color: #30CFD0;
+    list-style: none;
+    position: absolute!important;
+    right: -100px;
+    top:90px;
+    z-index: 10000;
+    line-height: 3em !important;
+    padding-left: 8px;
+    border-radius: 0 0 0 7px!important;
+  }
+
+  .list-burger-show{
+    animation: listburgershow 1s forwards;
+  }
+
+  @keyframes listburgershow {
+    from {
+      right: -100px;
+      top:90px;
+    }
+    to{
+      right: 0;
+      top:90px;
+    }
+  }
+
+  .item_burger a:hover {
+    color: $color_item_header_hover!important;
+  }
+  .title_date{
+    font-size: 2.3em!important;
+
+  }
+  .title_photos{
+    font-size: 2.3em!important;
+
+  }
+  .title_videos{
+    font-size: 2.3em!important;
+  }
+  .background-box{
+    font-size: 0.8em!important;
+  }
+  .place{
+    font-size: 1.1em!important;
+  }
+  .dates{
+    margin: 100px 70px 0 70px!important;
+
+  }
 }
+
+
+
+

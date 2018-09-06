@@ -57,7 +57,7 @@
   text-align: center;
 }
 
-nav ul li:after{
+nav ul li:after{  //underline for hover
   display: block;
   content: "";
   background-color: $color_item_header_hover;
@@ -107,13 +107,24 @@ nav ul li:hover:after {
 /////////burger menu///////
 .menu_burger {
   display: none;
+  &:after{
+    content: "MENU";
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    color: $color_item_header_hover;
+  }
 }
 
 .img_burger {
   width: 100px;
   height: 100px;
-  margin: 0 10px 0 20px;
   display: none;
+  position: absolute;
+  z-index: 1001;
+  top: 2px;
+  right: 10px;
+
 }
 
 
