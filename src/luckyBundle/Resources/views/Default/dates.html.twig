@@ -12,17 +12,52 @@
                         <p class=" col-12 ">{{ concert.date|date('d/m/y') }}</p>
                         <p class=" col-12 address">{{ concert.address }}</p>
                         {% if is_granted('ROLE_ADMIN') %}
-                                <div class="row datesbtn">
-                                    <p class="deletebtn_date col-5"><a
-                                                href="{{ path('lucky_deleteDate', {'id': concert.id}) }}" class="deleteColor" >Supprimer</a>
-                                    </p>
-                                    <p class="updatebtn_date col-5"><a
-                                                href="{{ path('lucky_updateDate', {'id': concert.id}) }} " class="updateColor">Modifier</a>
-                                    </p>
-                                </div>
+                            <div class="row datesbtn">
+                                <p class="deletebtn_date col-5"><a
+                                            href="{{ path('lucky_deleteDate', {'id': concert.id}) }}"
+                                            class="deleteColor">Supprimer</a>
+                                </p>
+                                <p class="updatebtn_date col-5"><a
+                                            href="{{ path('lucky_updateDate', {'id': concert.id}) }} "
+                                            class="updateColor">Modifier</a>
+                                </p>
+                            </div>
                         {% endif %}
                     </div>
                 {% endfor %}
+            </div>
+            <div class="row news justify-content-center">
+                <div class="row col-12">
+                    <h3 class="title-news col-12">Pour être toujours au courant d'une date !</h3>
+                </div>
+                {{ form_start(formView) }}
+                <div class="row">
+
+                    <div class="labels  col-3">
+                        {{ form_label(formView.email) }}
+                    </div>
+                    <div class="fields form_wid col-9">
+                        {{ form_widget(formView.email, { 'attr': {'class': 'form-control'} }) }}
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="labels  col-3">
+                        {{ form_label(formView.phone) }}
+                    </div>
+                    <div class="fields form_wid col-9">
+                        {{ form_widget(formView.phone, { 'attr': {'class': 'form-control'} }) }}
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div>
+                        {{ form_widget(formView.Envoyer) }}
+                    </div>
+                </div>
+                    {{ form_end(formView) }}
+
+
             </div>
         </div>
 

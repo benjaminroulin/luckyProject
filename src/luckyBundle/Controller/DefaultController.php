@@ -5,11 +5,13 @@ namespace luckyBundle\Controller;
 use AppBundle\Form\PhotoType;
 use luckyBundle\Entity\Band;
 use luckyBundle\Entity\Concert;
+use luckyBundle\Entity\News;
 use luckyBundle\Entity\Photo;
 use luckyBundle\Entity\Song;
 use luckyBundle\Entity\Video;
 use luckyBundle\Form\BandType;
 use luckyBundle\Form\ConcertType;
+use luckyBundle\Form\NewsType;
 use luckyBundle\Form\SongType;
 use luckyBundle\Form\VideoType;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -27,12 +29,27 @@ class DefaultController extends Controller
         ));
     }
 
-    public function dateAction()
+    public function dateAction(Request $request)
     {
+        $news = new News();
+
+        $form = $this->createForm(NewsType::class, $news);
+        $formview = $form->createView();
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+
+            $form->getData();
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($news);
+            $em->flush();
+        }
+
         $repository = $this->getdoctrine()->getRepository(Concert::class); //Je récupère le repo avec lequel je veux travailler en passant par l’entité qui lui est lié
         $concerts = $repository->findAll(); //on utilise la methode findall du repository pour récupérer les éléments de la table concernée
         return $this->render('@lucky/Default/dates.html.twig', array(
-            'concerts' => $concerts
+            'concerts' => $concerts,
+            'formView' => $formview
         ));
     }
 

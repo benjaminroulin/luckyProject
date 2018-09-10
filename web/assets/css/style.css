@@ -532,6 +532,15 @@ nav ul li:hover:after {
   padding: 35px 10px 30px 10px;
   font-family: 'Montserrat', sans-serif; }
 
+.title-news {
+  font-family: "Kaushan Script";
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #458A79; }
+
 .date {
   margin: 10px;
   text-align: center;
@@ -772,6 +781,15 @@ nav ul li:hover:after {
 
 .form_add_container {
   background: linear-gradient(to right, #30CFD0 0%, #003729 100%);
+  padding: 5%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.4em; }
+
+.news {
+  background: rgba(0, 191, 191, 0.1);
   padding: 5%;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
